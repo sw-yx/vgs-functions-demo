@@ -8,7 +8,7 @@ const encode = (data) => {
 }
 
 export default withSiteData(() => {
-  const [state, setState] = useState({ name: "", email: "", message: "" })
+  const [state, setState] = React.useState({ name: "", email: "", message: "" })
 
   const handleSubmit = (e) => {
     fetch("/", {
