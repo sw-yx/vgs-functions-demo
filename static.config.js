@@ -1,27 +1,26 @@
-import axios from 'axios'
+import axios from "axios"
 
 export default {
+  siteRoot: "https://vgs-functions-demo-test.netlify.com",
   getSiteData: () => ({
-    title: 'React Static',
+    title: "React Static"
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    const { data: posts } = await axios.get("https://jsonplaceholder.typicode.com/posts")
     return [
       {
-        path: '/blog',
+        path: "/blog",
         getData: () => ({
-          posts,
+          posts
         }),
-        children: posts.map(post => ({
+        children: posts.map((post) => ({
           path: `/post/${post.id}`,
-          component: 'src/containers/Post',
+          component: "src/containers/Post",
           getData: () => ({
-            post,
-          }),
-        })),
-      },
+            post
+          })
+        }))
+      }
     ]
-  },
+  }
 }
