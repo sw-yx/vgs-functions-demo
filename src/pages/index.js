@@ -5,7 +5,7 @@ export default withSiteData(() => (
   <div style={{ textAlign: "center" }}>
     <h1>netlify simple vgs functions demo</h1>
     <h2>an insecure form</h2>
-    <form data-netlify name="insecureform">
+    <form data-netlify method="post" name="insecureform">
       <p>
         <label>
           Your Name: <input type="text" name="name" />
@@ -27,7 +27,7 @@ export default withSiteData(() => (
     </form>
     <h2>a secure form</h2>
 
-    <form data-netlify name="secureform" secure>
+    <form data-netlify method="post" name="secureform" secure>
       <p>
         <label>
           Your Name: <input type="text" name="name" />
