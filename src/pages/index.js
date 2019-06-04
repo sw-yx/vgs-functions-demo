@@ -11,15 +11,14 @@ export default withSiteData(() => {
   const [state, setState] = React.useState({ name: "", email: "", message: "" })
 
   const handleSubmit = (e) => {
+    e.preventDefault()
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "insecureform", ...this.state })
+      body: encode({ "form-name": "insecureform", ...state })
     })
       .then(() => alert("Success!"))
       .catch((error) => alert(error))
-
-    e.preventDefault()
   }
 
   const changeHandler = (field) => (e) => {
