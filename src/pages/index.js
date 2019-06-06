@@ -52,7 +52,7 @@ function App() {
       </form> */}
       <h2>a secure form</h2>
 
-      <form data-netlify="true" method="post" name="secureform" secure>
+      <form data-netlify data-secure method="post" name="secureform">
         <p>
           <label>
             Your Name: <input type="text" name="name" />
