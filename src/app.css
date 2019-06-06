@@ -40,3 +40,17 @@ nav a {
   left: 1px;
   top: -8px;
 }
+
+form span {
+  display: inline-block;
+  height: 20px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+span iframe {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  width: 400px;
+}
