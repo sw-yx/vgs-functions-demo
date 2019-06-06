@@ -2,25 +2,25 @@
   "errors": [],
   "warnings": [],
   "version": "4.33.0",
-  "hash": "37b85cb28a8e7504d706",
-  "time": 2145,
-  "builtAt": 1559805727737,
+  "hash": "536aa3beab0aec0d3a50",
+  "time": 2188,
+  "builtAt": 1559806898371,
   "publicPath": "/",
   "outputPath": "/Users/swyx/Netlify/vgs-functions-demo/dist",
   "assetsByChunkName": {
-    "main": "main.37b85cb2.js",
+    "main": "main.536aa3be.js",
     "src/pages/404": "templates/src/pages/404.03c4007b.js",
     "src/pages/about": "templates/src/pages/about.59a3ee47.js",
-    "src/pages/index": "templates/src/pages/index.66d49dc2.js",
+    "src/pages/index": "templates/src/pages/index.91d7466d.js",
     "styles": [
-      "styles.e3536dff.css",
-      "templates/styles.e3536dff.js"
+      "styles.dc8bad20.css",
+      "templates/styles.dc8bad20.js"
     ],
     "vendors~main": "templates/vendors~main.77d905b2.js"
   },
   "assets": [
     {
-      "name": "main.37b85cb2.js",
+      "name": "main.536aa3be.js",
       "size": 5085,
       "chunks": [
         0
@@ -31,7 +31,7 @@
       "emitted": true
     },
     {
-      "name": "styles.e3536dff.css",
+      "name": "styles.dc8bad20.css",
       "size": 336,
       "chunks": [
         4
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/index.66d49dc2.js",
-      "size": 1049,
+      "name": "templates/src/pages/index.91d7466d.js",
+      "size": 1046,
       "chunks": [
         3
       ],
@@ -75,7 +75,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.e3536dff.js",
+      "name": "templates/styles.dc8bad20.js",
       "size": 82,
       "chunks": [
         4
@@ -106,10 +106,10 @@
         0
       ],
       "assets": [
-        "styles.e3536dff.css",
-        "templates/styles.e3536dff.js",
+        "styles.dc8bad20.css",
+        "templates/styles.dc8bad20.js",
         "templates/vendors~main.77d905b2.js",
-        "main.37b85cb2.js"
+        "main.536aa3be.js"
       ],
       "children": {},
       "childAssets": {}
@@ -123,10 +123,10 @@
         0
       ],
       "assets": [
-        "styles.e3536dff.css",
-        "templates/styles.e3536dff.js",
+        "styles.dc8bad20.css",
+        "templates/styles.dc8bad20.js",
         "templates/vendors~main.77d905b2.js",
-        "main.37b85cb2.js"
+        "main.536aa3be.js"
       ],
       "children": {},
       "childAssets": {}
@@ -156,7 +156,7 @@
         3
       ],
       "assets": [
-        "templates/src/pages/index.66d49dc2.js"
+        "templates/src/pages/index.91d7466d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -173,9 +173,9 @@
         "main"
       ],
       "files": [
-        "main.37b85cb2.js"
+        "main.536aa3be.js"
       ],
-      "hash": "e3b5432fe0de0bc0f812",
+      "hash": "eddbafddf2ad55d597e9",
       "siblings": [
         4,
         5
@@ -823,14 +823,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 1964,
+      "size": 1959,
       "names": [
         "src/pages/index"
       ],
       "files": [
-        "templates/src/pages/index.66d49dc2.js"
+        "templates/src/pages/index.91d7466d.js"
       ],
-      "hash": "66d49dc2523b9e3c4ab1",
+      "hash": "91d7466d34b598c1c4bc",
       "siblings": [],
       "parents": [
         0,
@@ -846,7 +846,7 @@
           "name": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "index": 133,
           "index2": 133,
-          "size": 1964,
+          "size": 1959,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -906,7 +906,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/swyx/Netlify/vgs-functions-demo/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from\"react\";// import { withSiteData } from \"react-static\"\nvar encode=function encode(data){return Object.keys(data).map(function(key){return encodeURIComponent(key)+\"=\"+encodeURIComponent(data[key]);}).join(\"&\");};function App(){var _React$useState=React.useState({name:\"\",email:\"\",message:\"\"}),_React$useState2=_slicedToArray(_React$useState,2),state=_React$useState2[0],setState=_React$useState2[1];var handleSubmit=function handleSubmit(e){e.preventDefault();fetch(\"/\",{method:\"POST\",headers:{\"Content-Type\":\"application/x-www-form-urlencoded\"},body:encode(_objectSpread({\"form-name\":\"insecureform\"},state))}).then(function(){return alert(\"Success!\");})[\"catch\"](function(error){return alert(error);});};var changeHandler=function changeHandler(field){return function(e){setState(_objectSpread({},state,_defineProperty({},field,e.target.value)));};};return React.createElement(\"div\",{style:{textAlign:\"center\"}},React.createElement(\"h1\",null,\"netlify simple vgs functions demo\"),React.createElement(\"h2\",null,\"an insecure form\"),React.createElement(\"h2\",null,\"a secure form\"),React.createElement(\"form\",{\"data-netlify\":true,\"data-secure\":true,method:\"post\",name:\"secureform\"},React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Name: \",React.createElement(\"input\",{type:\"text\",name:\"name\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Email: \",React.createElement(\"input\",{type:\"email\",name:\"email\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Secure Message: \",React.createElement(\"input\",{type:\"text\",\"data-secure-field\":true,name:\"message\"}))),React.createElement(\"p\",null,React.createElement(\"button\",{type:\"submit\"},\"Send\"))));}// export default withSiteData(App)\nexport default App;"
+          "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from\"react\";// import { withSiteData } from \"react-static\"\nvar encode=function encode(data){return Object.keys(data).map(function(key){return encodeURIComponent(key)+\"=\"+encodeURIComponent(data[key]);}).join(\"&\");};function App(){var _React$useState=React.useState({name:\"\",email:\"\",message:\"\"}),_React$useState2=_slicedToArray(_React$useState,2),state=_React$useState2[0],setState=_React$useState2[1];var handleSubmit=function handleSubmit(e){e.preventDefault();fetch(\"/\",{method:\"POST\",headers:{\"Content-Type\":\"application/x-www-form-urlencoded\"},body:encode(_objectSpread({\"form-name\":\"insecureform\"},state))}).then(function(){return alert(\"Success!\");})[\"catch\"](function(error){return alert(error);});};var changeHandler=function changeHandler(field){return function(e){setState(_objectSpread({},state,_defineProperty({},field,e.target.value)));};};return React.createElement(\"div\",{style:{textAlign:\"center\"}},React.createElement(\"h1\",null,\"netlify simple vgs functions demo\"),React.createElement(\"h2\",null,\"an insecure form\"),React.createElement(\"h2\",null,\"a secure form\"),React.createElement(\"form\",{\"data-netlify\":true,secure:\"true\",method:\"post\",name:\"secureform\"},React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Name: \",React.createElement(\"input\",{type:\"text\",name:\"name\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Email: \",React.createElement(\"input\",{type:\"email\",name:\"email\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Secure Message: \",React.createElement(\"input\",{type:\"text\",\"data-secure-field\":true,name:\"message\"}))),React.createElement(\"p\",null,React.createElement(\"button\",{type:\"submit\"},\"Send\"))));}// export default withSiteData(App)\nexport default App;"
         }
       ],
       "filteredModules": 0,
@@ -933,10 +933,10 @@
         "styles"
       ],
       "files": [
-        "styles.e3536dff.css",
-        "templates/styles.e3536dff.js"
+        "styles.dc8bad20.css",
+        "templates/styles.dc8bad20.js"
       ],
-      "hash": "e3536dff83879f87ebfa",
+      "hash": "dc8bad20ae4f0e8bccda",
       "siblings": [
         0,
         5
@@ -1009,7 +1009,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559805726679\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559806897316\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -1621,7 +1621,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1121-1126"
+              "loc": "2:1116-1121"
             },
             {
               "moduleId": 50,
@@ -1630,7 +1630,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1150-1155"
+              "loc": "2:1145-1150"
             },
             {
               "moduleId": 50,
@@ -1639,7 +1639,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1197-1202"
+              "loc": "2:1192-1197"
             },
             {
               "moduleId": 50,
@@ -1648,7 +1648,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1254-1259"
+              "loc": "2:1249-1254"
             },
             {
               "moduleId": 50,
@@ -1657,7 +1657,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1283-1288"
+              "loc": "2:1278-1283"
             },
             {
               "moduleId": 50,
@@ -1666,7 +1666,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1331-1336"
+              "loc": "2:1326-1331"
             },
             {
               "moduleId": 50,
@@ -1675,7 +1675,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1390-1395"
+              "loc": "2:1385-1390"
             },
             {
               "moduleId": 50,
@@ -1684,7 +1684,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1419-1424"
+              "loc": "2:1414-1419"
             },
             {
               "moduleId": 50,
@@ -1693,7 +1693,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1471-1476"
+              "loc": "2:1466-1471"
             },
             {
               "moduleId": 50,
@@ -1702,7 +1702,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1556-1561"
+              "loc": "2:1551-1556"
             },
             {
               "moduleId": 50,
@@ -1711,7 +1711,7 @@
               "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "2:1585-1590"
+              "loc": "2:1580-1585"
             },
             {
               "moduleId": 54,
@@ -12216,7 +12216,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1121-1126"
+          "loc": "2:1116-1121"
         },
         {
           "moduleId": 50,
@@ -12225,7 +12225,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1150-1155"
+          "loc": "2:1145-1150"
         },
         {
           "moduleId": 50,
@@ -12234,7 +12234,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1197-1202"
+          "loc": "2:1192-1197"
         },
         {
           "moduleId": 50,
@@ -12243,7 +12243,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1254-1259"
+          "loc": "2:1249-1254"
         },
         {
           "moduleId": 50,
@@ -12252,7 +12252,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1283-1288"
+          "loc": "2:1278-1283"
         },
         {
           "moduleId": 50,
@@ -12261,7 +12261,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1331-1336"
+          "loc": "2:1326-1331"
         },
         {
           "moduleId": 50,
@@ -12270,7 +12270,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1390-1395"
+          "loc": "2:1385-1390"
         },
         {
           "moduleId": 50,
@@ -12279,7 +12279,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1419-1424"
+          "loc": "2:1414-1419"
         },
         {
           "moduleId": 50,
@@ -12288,7 +12288,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1471-1476"
+          "loc": "2:1466-1471"
         },
         {
           "moduleId": 50,
@@ -12297,7 +12297,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1556-1561"
+          "loc": "2:1551-1556"
         },
         {
           "moduleId": 50,
@@ -12306,7 +12306,7 @@
           "moduleName": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "2:1585-1590"
+          "loc": "2:1580-1585"
         },
         {
           "moduleId": 54,
@@ -17547,7 +17547,7 @@
       "name": "/Users/swyx/Netlify/vgs-functions-demo/src/pages/index.js",
       "index": 133,
       "index2": 133,
-      "size": 1964,
+      "size": 1959,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -17607,7 +17607,7 @@
         "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/swyx/Netlify/vgs-functions-demo/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
       ],
       "depth": 3,
-      "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from\"react\";// import { withSiteData } from \"react-static\"\nvar encode=function encode(data){return Object.keys(data).map(function(key){return encodeURIComponent(key)+\"=\"+encodeURIComponent(data[key]);}).join(\"&\");};function App(){var _React$useState=React.useState({name:\"\",email:\"\",message:\"\"}),_React$useState2=_slicedToArray(_React$useState,2),state=_React$useState2[0],setState=_React$useState2[1];var handleSubmit=function handleSubmit(e){e.preventDefault();fetch(\"/\",{method:\"POST\",headers:{\"Content-Type\":\"application/x-www-form-urlencoded\"},body:encode(_objectSpread({\"form-name\":\"insecureform\"},state))}).then(function(){return alert(\"Success!\");})[\"catch\"](function(error){return alert(error);});};var changeHandler=function changeHandler(field){return function(e){setState(_objectSpread({},state,_defineProperty({},field,e.target.value)));};};return React.createElement(\"div\",{style:{textAlign:\"center\"}},React.createElement(\"h1\",null,\"netlify simple vgs functions demo\"),React.createElement(\"h2\",null,\"an insecure form\"),React.createElement(\"h2\",null,\"a secure form\"),React.createElement(\"form\",{\"data-netlify\":true,\"data-secure\":true,method:\"post\",name:\"secureform\"},React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Name: \",React.createElement(\"input\",{type:\"text\",name:\"name\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Email: \",React.createElement(\"input\",{type:\"email\",name:\"email\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Secure Message: \",React.createElement(\"input\",{type:\"text\",\"data-secure-field\":true,name:\"message\"}))),React.createElement(\"p\",null,React.createElement(\"button\",{type:\"submit\"},\"Send\"))));}// export default withSiteData(App)\nexport default App;"
+      "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from\"react\";// import { withSiteData } from \"react-static\"\nvar encode=function encode(data){return Object.keys(data).map(function(key){return encodeURIComponent(key)+\"=\"+encodeURIComponent(data[key]);}).join(\"&\");};function App(){var _React$useState=React.useState({name:\"\",email:\"\",message:\"\"}),_React$useState2=_slicedToArray(_React$useState,2),state=_React$useState2[0],setState=_React$useState2[1];var handleSubmit=function handleSubmit(e){e.preventDefault();fetch(\"/\",{method:\"POST\",headers:{\"Content-Type\":\"application/x-www-form-urlencoded\"},body:encode(_objectSpread({\"form-name\":\"insecureform\"},state))}).then(function(){return alert(\"Success!\");})[\"catch\"](function(error){return alert(error);});};var changeHandler=function changeHandler(field){return function(e){setState(_objectSpread({},state,_defineProperty({},field,e.target.value)));};};return React.createElement(\"div\",{style:{textAlign:\"center\"}},React.createElement(\"h1\",null,\"netlify simple vgs functions demo\"),React.createElement(\"h2\",null,\"an insecure form\"),React.createElement(\"h2\",null,\"a secure form\"),React.createElement(\"form\",{\"data-netlify\":true,secure:\"true\",method:\"post\",name:\"secureform\"},React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Name: \",React.createElement(\"input\",{type:\"text\",name:\"name\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Your Email: \",React.createElement(\"input\",{type:\"email\",name:\"email\"}))),React.createElement(\"p\",null,React.createElement(\"label\",null,\"Secure Message: \",React.createElement(\"input\",{type:\"text\",\"data-secure-field\":true,name:\"message\"}))),React.createElement(\"p\",null,React.createElement(\"button\",{type:\"submit\"},\"Send\"))));}// export default withSiteData(App)\nexport default App;"
     },
     {
       "id": 51,
@@ -22785,7 +22785,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559805726679\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559806897316\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 127,

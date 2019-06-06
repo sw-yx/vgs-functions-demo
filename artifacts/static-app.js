@@ -1102,7 +1102,7 @@ function App() {
     }
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", null, "netlify simple vgs functions demo"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h2", null, "an insecure form"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h2", null, "a secure form"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("form", {
     "data-netlify": true,
-    "data-secure": true,
+    secure: "true",
     method: "post",
     name: "secureform"
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("label", null, "Your Name: ", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
