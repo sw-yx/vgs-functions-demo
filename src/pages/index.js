@@ -52,7 +52,7 @@ function App() {
       </form> */}
       <h2>a secure form</h2>
 
-      <form data-netlify method="post" name="secureform" secure>
+      <form netlify method="post" name="secureform" secure>
         <p>
           <label>
             Your Name: <input type="text" name="name" />
@@ -65,7 +65,7 @@ function App() {
         </p>
         <p>
           <label>
-            Secure Message: <textarea data-secure-field name="message" />
+            Secure Message: <input type="text" data-secure-field name="message" />
           </label>
         </p>
         <p>
