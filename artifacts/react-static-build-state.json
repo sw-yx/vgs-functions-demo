@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "siteRoot": "https://vgs-functions-demo-test.netlify.com",
+  "plugins": [
+    [
+      "/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/swyx/Netlify/vgs-functions-demo/src/pages"
+      }
+    ],
+    "/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/swyx/Netlify/vgs-functions-demo"
+  ],
+  "paths": {
+    "ROOT": "/Users/swyx/Netlify/vgs-functions-demo",
+    "SRC": "/Users/swyx/Netlify/vgs-functions-demo/src",
+    "DIST": "/Users/swyx/Netlify/vgs-functions-demo/dist",
+    "ASSETS": "/Users/swyx/Netlify/vgs-functions-demo/dist",
+    "PLUGINS": "/Users/swyx/Netlify/vgs-functions-demo/plugins",
+    "TEMP": "/Users/swyx/Netlify/vgs-functions-demo/tmp",
+    "ARTIFACTS": "/Users/swyx/Netlify/vgs-functions-demo/artifacts",
+    "PUBLIC": "/Users/swyx/Netlify/vgs-functions-demo/public",
+    "NODE_MODULES": "/Users/swyx/Netlify/vgs-functions-demo/node_modules",
+    "EXCLUDE_MODULES": "/Users/swyx/Netlify/vgs-functions-demo/node_modules",
+    "PACKAGE": "/Users/swyx/Netlify/vgs-functions-demo/package.json",
+    "HTML_TEMPLATE": "/Users/swyx/Netlify/vgs-functions-demo/dist/index.html",
+    "STATIC_DATA": "/Users/swyx/Netlify/vgs-functions-demo/dist/staticData"
+  },
+  "basePath": "",
+  "publicPath": "https://vgs-functions-demo-test.netlify.com/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
