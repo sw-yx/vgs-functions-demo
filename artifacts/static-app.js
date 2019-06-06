@@ -1100,20 +1100,21 @@ function App() {
     style: {
       textAlign: "center"
     }
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", null, "netlify simple vgs functions demo"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h2", null, "an insecure form"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("form", {
-    onSubmit: handleSubmit,
-    name: "insecureform"
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", null, "netlify simple vgs functions demo"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h2", null, "an insecure form"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h2", null, "a secure form"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("form", {
+    "data-netlify": true,
+    method: "post",
+    name: "secureform",
+    secure: true
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("label", null, "Your Name: ", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
     type: "text",
-    name: "name",
-    onChange: changeHandler("name")
+    name: "name"
   }))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("label", null, "Your Email: ", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
     type: "email",
-    name: "email",
-    onChange: changeHandler("email")
-  }))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("label", null, "Insecure Message: ", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("textarea", {
-    name: "message",
-    onChange: changeHandler("message")
+    name: "email"
+  }))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("label", null, "Secure Message: ", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
+    type: "text",
+    "data-secure-field": true,
+    name: "message"
   }))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
     type: "submit"
   }, "Send"))));
