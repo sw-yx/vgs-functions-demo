@@ -1,5 +1,5 @@
 import React from "react"
-import { withSiteData } from "react-static"
+// import { withSiteData } from "react-static"
 
 const encode = (data) => {
   return Object.keys(data)
@@ -7,7 +7,7 @@ const encode = (data) => {
     .join("&")
 }
 
-export default withSiteData(() => {
+function App() {
   const [state, setState] = React.useState({ name: "", email: "", message: "" })
 
   const handleSubmit = (e) => {
@@ -51,27 +51,29 @@ export default withSiteData(() => {
         </p>
       </form>
       {/* <h2>a secure form</h2>
-
-      <form data-netlify method="post" name="secureform" secure>
-        <p>
-          <label>
-            Your Name: <input type="text" name="name" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your Email: <input type="email" name="email" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Secure Message: <textarea data-secure-field name="message" />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form> */}
+  
+        <form data-netlify method="post" name="secureform" secure>
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Secure Message: <textarea data-secure-field name="message" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form> */}
     </div>
   )
-})
+}
+// export default withSiteData(App)
+export default App
