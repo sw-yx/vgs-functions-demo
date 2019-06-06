@@ -2,25 +2,25 @@
   "errors": [],
   "warnings": [],
   "version": "4.33.0",
-  "hash": "1954ef18d9e56a205553",
-  "time": 2406,
-  "builtAt": 1559804419635,
+  "hash": "9d299cd3b270cac643de",
+  "time": 1892,
+  "builtAt": 1559804754131,
   "publicPath": "/",
   "outputPath": "/Users/swyx/Netlify/vgs-functions-demo/dist",
   "assetsByChunkName": {
-    "main": "main.1954ef18.js",
+    "main": "main.9d299cd3.js",
     "src/pages/404": "templates/src/pages/404.03c4007b.js",
     "src/pages/about": "templates/src/pages/about.59a3ee47.js",
     "src/pages/index": "templates/src/pages/index.8d9ff3b8.js",
     "styles": [
-      "styles.b0196e66.css",
-      "templates/styles.b0196e66.js"
+      "styles.c286efef.css",
+      "templates/styles.c286efef.js"
     ],
     "vendors~main": "templates/vendors~main.77d905b2.js"
   },
   "assets": [
     {
-      "name": "main.1954ef18.js",
+      "name": "main.9d299cd3.js",
       "size": 5085,
       "chunks": [
         0
@@ -31,7 +31,7 @@
       "emitted": true
     },
     {
-      "name": "styles.b0196e66.css",
+      "name": "styles.c286efef.css",
       "size": 336,
       "chunks": [
         4
@@ -75,7 +75,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.b0196e66.js",
+      "name": "templates/styles.c286efef.js",
       "size": 82,
       "chunks": [
         4
@@ -106,10 +106,10 @@
         0
       ],
       "assets": [
-        "styles.b0196e66.css",
-        "templates/styles.b0196e66.js",
+        "styles.c286efef.css",
+        "templates/styles.c286efef.js",
         "templates/vendors~main.77d905b2.js",
-        "main.1954ef18.js"
+        "main.9d299cd3.js"
       ],
       "children": {},
       "childAssets": {}
@@ -123,10 +123,10 @@
         0
       ],
       "assets": [
-        "styles.b0196e66.css",
-        "templates/styles.b0196e66.js",
+        "styles.c286efef.css",
+        "templates/styles.c286efef.js",
         "templates/vendors~main.77d905b2.js",
-        "main.1954ef18.js"
+        "main.9d299cd3.js"
       ],
       "children": {},
       "childAssets": {}
@@ -173,7 +173,7 @@
         "main"
       ],
       "files": [
-        "main.1954ef18.js"
+        "main.9d299cd3.js"
       ],
       "hash": "2315aa9da65d03f0ac8b",
       "siblings": [
@@ -933,10 +933,10 @@
         "styles"
       ],
       "files": [
-        "styles.b0196e66.css",
-        "templates/styles.b0196e66.js"
+        "styles.c286efef.css",
+        "templates/styles.c286efef.js"
       ],
-      "hash": "b0196e668d53bf82071e",
+      "hash": "c286efef11886ed55b8a",
       "siblings": [
         0,
         5
@@ -1009,7 +1009,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559804418427\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559804753342\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -2409,9 +2409,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -2565,9 +2565,9 @@
           "chunks": [
             5
           ],
-          "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 52,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 113,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 51,
@@ -2575,9 +2575,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -3256,9 +3256,9 @@
           "chunks": [
             5
           ],
-          "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 52,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 113,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 51,
@@ -3266,9 +3266,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -3452,9 +3452,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -4290,9 +4290,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -4738,9 +4738,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5307,9 +5307,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5373,9 +5373,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5444,9 +5444,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5510,9 +5510,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5576,9 +5576,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5723,9 +5723,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5804,9 +5804,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5890,9 +5890,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -5966,9 +5966,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -6042,9 +6042,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8323,9 +8323,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8380,9 +8380,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8442,9 +8442,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8504,9 +8504,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8566,9 +8566,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8628,9 +8628,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8700,9 +8700,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8767,9 +8767,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8839,9 +8839,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8916,9 +8916,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -8998,9 +8998,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9075,9 +9075,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9152,9 +9152,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9229,9 +9229,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9306,9 +9306,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9383,9 +9383,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9455,9 +9455,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9527,9 +9527,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9604,9 +9604,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9681,9 +9681,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9758,9 +9758,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9825,9 +9825,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9892,9 +9892,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -9957,9 +9957,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 113,
+              "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 4,
@@ -13004,9 +13004,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -13160,9 +13160,9 @@
       "chunks": [
         5
       ],
-      "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 52,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 113,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 51,
@@ -13170,9 +13170,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -13851,9 +13851,9 @@
       "chunks": [
         5
       ],
-      "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 52,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 113,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 51,
@@ -13861,9 +13861,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -14047,9 +14047,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -14885,9 +14885,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -15333,9 +15333,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -15965,9 +15965,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16031,9 +16031,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16102,9 +16102,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16168,9 +16168,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16234,9 +16234,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16381,9 +16381,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16462,9 +16462,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16548,9 +16548,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16624,9 +16624,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -16700,9 +16700,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19286,9 +19286,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19343,9 +19343,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19405,9 +19405,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19467,9 +19467,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19529,9 +19529,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19591,9 +19591,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19663,9 +19663,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19730,9 +19730,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19802,9 +19802,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19879,9 +19879,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -19961,9 +19961,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20038,9 +20038,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20115,9 +20115,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20192,9 +20192,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20269,9 +20269,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20346,9 +20346,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20418,9 +20418,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20490,9 +20490,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20567,9 +20567,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20644,9 +20644,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20721,9 +20721,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20788,9 +20788,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20855,9 +20855,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -20920,9 +20920,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 113,
+          "identifier": "/Users/swyx/Netlify/vgs-functions-demo/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/node_modules/react-hot-loader/webpack.js!/Users/swyx/Netlify/vgs-functions-demo/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 4,
@@ -22785,7 +22785,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559804418427\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1559804753342\n      var cssReload = require(\"/Users/swyx/Netlify/vgs-functions-demo/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 127,
